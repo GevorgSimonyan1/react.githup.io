@@ -1,0 +1,46 @@
+.bite-fot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px auto;
+}
+.bite-fot .fot {
+  width: 300px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px;
+}
+.bite-fot .fot h1 {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 25px;
+}
+.bite-fot .fot p {
+  line-height: 30px;
+}
+.bite-fot .fot .fot-img {
+  width: 150px;
+  height: 150px;
+}
+.bite-fot .fot .fot-img img {
+  width: 100%;
+  height: 100%;
+}

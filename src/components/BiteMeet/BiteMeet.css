@@ -1,0 +1,175 @@
+.bite-meet {
+  width: 100%;
+}
+.bite-meet h2 {
+  text-align: center;
+  font-weight: 450;
+  width: 60%;
+  margin: 35px auto 0;
+}
+.bite-meet .dannParagrafe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  width: 30%;
+  display: flex;
+  grid-gap: 10px;
+}
+.bite-meet .dannParagrafe .center {
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 0 15px;
+}
+.bite-meet .meet-blocks {
+  width: 100%;
+  margin: 100px 0;
+}
+.bite-meet .meet-blocks .meet-res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 25px;
+}
+.bite-meet .meet-blocks .meet-res .meet-btn {
+  width: 150px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.bite-meet .meet-blocks .meet-res .meet-btn p {
+  font-size: 25px;
+  color: #1e1e47;
+  line-height: 30px;
+  font-weight: 600;
+}
+.bite-meet .meet-blocks .meet-res .meet-btn button {
+  width: 120px;
+  height: 35px;
+  margin: 25px auto;
+  border: 2px solid blue;
+  border-radius: 25px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 10px 2px blue;
+          box-shadow: 0 2px 10px 2px blue;
+}
+.bite-meet .meet-blocks .meet-res .meet-btn button:hover {
+  border: 2px solid white;
+  background-color: blue;
+  color: white;
+  -webkit-box-shadow: 0 2px 10px 2px white;
+          box-shadow: 0 2px 10px 2px white;
+}
+.bite-meet .meet-blocks .meet-res .meet-left {
+  width: 325px;
+  height: 400px;
+  background-image: url("./Bite-meet/Rectangle (10).png");
+  background-position: center;
+  position: relative;
+}
+.bite-meet .meet-blocks .meet-res .meet-left .meet-fon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bite-meet .meet-blocks .meet-res .meet-left .meet-aps {
+  position: absolute;
+  bottom: 25px;
+  left: 100px;
+}
+.bite-meet .meet-blocks .meet-res .meet-center {
+  width: 325px;
+  height: 400px;
+  background-image: url("./Bite-meet/Rectangle (11).png");
+  background-position: center;
+  position: relative;
+}
+.bite-meet .meet-blocks .meet-res .meet-center .meet-aps {
+  position: absolute;
+  bottom: 35px;
+  left: 100px;
+}
+.bite-meet .meet-blocks .meet-res .meet-right {
+  width: 325px;
+  height: 400px;
+  background-image: url("./Bite-meet/Rectangle (12).png");
+  background-position: center;
+  position: relative;
+}
+.bite-meet .meet-blocks .meet-res .meet-right .meet-fon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.bite-meet .meet-blocks .meet-res .meet-right .meet-aps {
+  position: absolute;
+  bottom: 25px;
+  left: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .bite-meet {
+    width: 100%;
+  }
+  .bite-meet .meet-blocks .meet-res {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bite-meet .meet-blocks .meet-res .meet-left {
+    height: 432px;
+  }
+  .bite-meet .meet-blocks .meet-res .meet-btn {
+    width: 350px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+  }
+  .bite-meet .meet-blocks .meet-res .meet-btn p {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .bite-meet .meet-blocks .meet-res .meet-btn button {
+    width: 170px;
+    height: 35px;
+  }
+  .bite-meet .meet-blocks .meet-res .meet-right, .bite-meet .meet-blocks .meet-res .meet-left, .bite-meet .meet-blocks .meet-res .meet-center {
+    margin: 0 auto;
+  }
+}

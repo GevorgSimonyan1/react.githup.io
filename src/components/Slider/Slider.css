@@ -1,0 +1,220 @@
+.slidr {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+}
+.slidr .lef, .slidr .rig {
+  padding: 10px 35px;
+  border-radius: 10px;
+  margin: auto auto;
+  border: 2.2px solid white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+.slidr .lef:hover, .slidr .rig:hover {
+  border: 2.2px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.4);
+}
+.slidr .slider {
+  width: 60%;
+  height: 520px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.slidr .slider .slider-blocks {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2000%;
+  height: 100%;
+  left: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.slidr .slider .slider-blocks .slid {
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+  background-color: rgba(128, 128, 128, 0.432);
+  border-radius: 15px;
+}
+.slidr .slider .slider-blocks .slid h1 {
+  font-size: 18px;
+  color: #1d1a1a;
+  padding: 5px 0;
+}
+.slidr .slider .slider-blocks .slid h2 {
+  font-size: 16px;
+  padding: 5px 0;
+}
+.slidr .slider .slider-blocks .slid .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.slidr .slider .slider-blocks .slid .btn-group .like {
+  padding: 5px 15px;
+  margin: 0px 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+.slidr .slider .slider-blocks .slid .btn-group .like i {
+  font-size: 30px;
+  color: red;
+  overflow: hidden;
+}
+.slidr .slider .slider-blocks .slid .btn-group .add {
+  padding: 5px 15px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0px 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+.slidr .slider .slider-blocks .slid .btn-group .add:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.slidr .slider .slider-blocks .slid .desq {
+  color: #0c0000;
+  padding: 5px;
+}
+.slidr .slider .slider-blocks .slid .slid-img {
+  width: 350px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slidr .slider .slider-blocks .slid .slid-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .slidr .lef, .slidr .rig {
+    padding: 5px 20px;
+  }
+
+  #slider {
+    width: 80%;
+    height: 550px;
+  }
+  #slider .slid-img {
+    width: 250px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #slider .slid-img img {
+    width: 100%;
+    height: 100%;
+  }
+  #slider .lef, #slider .rig {
+    padding: 5px 35px;
+    border-radius: 10px;
+    margin: auto auto;
+    border: 1px solid white;
+  }
+}
+@media screen and (max-width: 780px) {
+  .slidr .lef, .slidr .rig {
+    padding: 5px 12px;
+  }
+
+  #slider {
+    height: 400px;
+  }
+
+  #slid-img {
+    width: 150px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .desq {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  #slider {
+    height: 300px;
+  }
+  #slider #slid-img {
+    width: 100px;
+    height: 100px;
+  }
+  #slider h1 {
+    font-size: 16px;
+  }
+  #slider h2 {
+    font-size: 14px;
+  }
+  #slider .desq {
+    display: none;
+  }
+  #slider .tit {
+    font-size: 12px;
+  }
+  #slider #btn-group {
+    margin-top: 5px;
+  }
+  #slider #btn-group .add {
+    padding: 2px 8px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 0px 5px;
+  }
+
+  #ski .lef, #ski .rig {
+    padding: 4px 8px;
+  }
+}

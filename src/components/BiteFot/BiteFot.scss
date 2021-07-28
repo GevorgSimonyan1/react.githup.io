@@ -1,0 +1,36 @@
+.bite-fot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    .fot{
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px ;
+
+        h1{
+            font-size: 25px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.8);
+            margin: 25px;
+        }
+        p{
+            line-height: 30px;
+        }
+
+
+        .fot-img{
+            width: 150px;
+            height: 150px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

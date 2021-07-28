@@ -1,0 +1,57 @@
+.footer .fooooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer .fooooter .fot {
+  width: 250px;
+  margin: 25px 15px;
+  position: relative;
+}
+.footer .fooooter .fot strong {
+  color: Blue;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: -45px;
+}
+.footer .fooooter .fot h1 {
+  font-size: 18px;
+  color: gray;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.footer .fooooter .fot ul li {
+  list-style: none;
+}
+.footer .fooooter .fot ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.footer .fooooter .fot ul li a p {
+  color: blue;
+}
+.footer .fooooter .fot ul li p {
+  color: black;
+}
+.footer .footer-end {
+  text-align: center;
+  width: 320px;
+  margin: 15px auto;
+}
+.footer .footer-end span {
+  margin: 15px 0;
+  color: black;
+}
+.footer .footer-end span .gr {
+  color: grey;
+}
+.footer .footer-end div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  color: gray;
+}

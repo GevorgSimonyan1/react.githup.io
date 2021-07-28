@@ -1,0 +1,93 @@
+.bite-better {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #D2DFE5;
+}
+.bite-better .better {
+  width: 100%;
+}
+.bite-better .better img {
+  width: 100%;
+}
+.bite-better .Bite {
+  width: 100%;
+  background-color: #D2DFE5;
+  text-align: center;
+  margin: 50px 0;
+}
+.bite-better .Bite h1 {
+  font-size: 42px;
+  width: 20%;
+  margin: 10px auto;
+  color: #1d283f;
+  font-weight: 400;
+  line-height: 38px;
+}
+.bite-better .Bite p {
+  font-size: 22px;
+  width: 30%;
+  margin: 10px auto;
+  color: #1d283f;
+  font-weight: 400;
+  line-height: 38px;
+}
+.bite-better .Bite button {
+  padding: 10px 40px;
+  background-color: rgba(0, 0, 255, 0.521);
+  border: 1px solid white;
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 25px;
+}
+.bite-better .Bite button:hover {
+  background-color: white;
+  color: rgba(0, 0, 255, 0.521);
+  border: 1px solid rgba(0, 0, 255, 0.521);
+}
+.bite-better .Bite h5 {
+  color: rgba(0, 0, 255, 0.521);
+}
+
+@media screen and (max-width: 1100px) {
+  #bite {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  #bite h1 {
+    font-size: 30px;
+    width: 45%;
+  }
+  #bite p {
+    font-size: 20px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #bite h1 {
+    font-size: 20px;
+    width: 50%;
+  }
+  #bite p {
+    font-size: 16px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #bite h1 {
+    font-size: 20px;
+    width: 50%;
+  }
+  #bite p {
+    font-size: 16px;
+    width: 60%;
+  }
+}

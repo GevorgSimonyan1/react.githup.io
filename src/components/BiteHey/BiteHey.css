@@ -1,0 +1,87 @@
+.BiteHey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+.BiteHey .bite-text {
+  width: 40%;
+  min-width: 350px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.BiteHey .bite-text h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+.BiteHey .bite-text p {
+  text-align: center;
+  width: 70%;
+  color: #2c2525;
+}
+.BiteHey .bite-text button {
+  margin: 15px;
+  padding: 5px 15px;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  color: blue;
+}
+.BiteHey .slid-arr2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 350px;
+  min-width: 350px;
+  overflow: hidden;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+.BiteHey .slid-arr2 .sllid {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.BiteHey .slid-arr2 .sllid .name-slid {
+  width: 100%;
+}
+.BiteHey .slid-arr2 .sllid .name-slid h1 {
+  margin: 25px;
+  color: #252553;
+}
+.BiteHey .slid-arr2 .sllid .name-slid p {
+  margin: 15px 10px;
+  color: #252553;
+}

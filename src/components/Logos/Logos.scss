@@ -1,0 +1,19 @@
+.logos{
+    background-color:#abc7d8 ;
+
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .logos-img{
+            width: 70px;
+            margin: 10px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

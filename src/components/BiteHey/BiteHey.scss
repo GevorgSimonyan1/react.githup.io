@@ -1,0 +1,75 @@
+.BiteHey{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .bite-text{
+        width: 40%;
+        min-width: 350px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            margin: 10px 0;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            width: 70%;
+            color: rgb(44, 37, 37);
+        }
+        button{
+           margin: 15px;
+           padding: 5px 15px;
+           border: 0.5px solid black;
+           border-radius: 15px; 
+           color: blue;
+        }
+    }
+    .slid-arr2{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        width: 40%;
+        height: 350px;
+        min-width: 350px;
+        overflow: hidden;
+        margin: 30px auto;
+        border-radius: 15px;
+      
+       
+
+        .sllid{
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            display: flex;
+            width: 300%;
+            height: 100%;
+            transition: 0.5s;
+            .name-slid{
+                width: 100%;
+
+                h1{
+                    margin: 25px;
+                    color:rgb(37, 37, 83);
+
+                }
+                p{
+                    margin: 15px 10px;
+                    color:rgb(37, 37, 83);
+                }
+            }
+        }
+ 
+    }
+    
+}

@@ -1,0 +1,41 @@
+.BiteOne {
+  width: 100%;
+  text-align: center;
+}
+.BiteOne .bite-img {
+  width: 50%;
+  margin: 15px auto;
+}
+.BiteOne .bite-img img {
+  width: 100%;
+}
+.BiteOne h1 {
+  font-size: 70px;
+  font-weight: 400;
+}
+.BiteOne p {
+  color: #0f0f22;
+  font-size: 20px;
+  width: 60%;
+  margin: 15px auto;
+}
+.BiteOne h4 {
+  color: rgba(15, 15, 53, 0.459);
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .BiteOne h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .BiteOne h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .BiteOne h1 {
+    font-size: 25px;
+  }
+}

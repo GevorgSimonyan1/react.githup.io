@@ -1,0 +1,63 @@
+.footer{
+
+    .fooooter{
+        display: flex;
+
+        flex-wrap: wrap;
+        .fot{
+ 
+            width: 250px;
+            margin: 25px 15px;
+            position: relative;
+            strong{
+                color: Blue;
+                font-size: 30px;
+                position: absolute;
+                left: 0;
+                top: -45px;
+            }
+    
+            h1{
+                font-size: 18px;
+                color: gray;
+                font-weight: 400;
+                margin: 10px 0;
+            }
+            
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: gray;
+                        p{
+                            color: blue;
+                        }
+                    }
+                    p{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    
+    .footer-end{
+        text-align: center;
+        width: 320px;
+        margin: 15px auto;
+        span{
+            margin: 15px 0;
+            color: black;
+            .gr{
+                color: grey;
+            }
+        }
+        div{
+            display: flex;
+            font-size: 14px;
+            color: gray;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.no-pastic{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    h1{
+        width: 15%;
+        margin: 25px auto;
+        font-size: 45px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    h2{
+        width: 40%;
+        margin: 15px auto;
+        font-size: 25px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .no-plastic-all{
+
+margin: 50px auto;
+transform: rotate(-1deg);
+
+       
+        .no-plastic-img{
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+            height: 200px;
+            position: relative;
+            .no-pl-img1{
+                transform: scale(0.8);
+                img{
+                    width: 100%;
+                }
+            }
+            .no-pl-img2{
+                transform: scale(5);
+                img{
+                    width: 100%;
+                }
+            }
+            .no-pl-img2{
+                transform: scale(1.5);
+                img{
+                    width: 100%;
+                }
+            }
+            .no-plastic-btn{
+                position: absolute;
+                left: 0;
+                right: 0;
+                 top: 50%;
+                margin: auto auto;
+                padding: 15px 50px;
+                background-color: rgb(32, 32, 61);
+                border: none;
+                color: white;
+                font-size: 20px;
+                transition: 1s;
+                border: 2px solid white;
+            }
+            .no-plastic-btn:hover{
+                color: rgb(32, 32, 61);
+                background-color: white;
+                border: 2px solid rgb(32, 32, 61);;
+            }
+
+
+        }
+    }
+}
+@media screen and (max-width:700px) {
+    .no-pastic{
+        width: 100%;
+        h1{
+            font-size: 25px;
+            width: 50%;
+        }
+        h2{
+            font-size: 17px;
+        }
+        .no-plastic-all{
+              margin: 20px auto;
+
+              .no-plastic-img{
+                .no-pl-img1,.no-pl-img3{
+                    display: none;
+                }
+                .no-pl-img2{
+                    transform: scale(1);
+                    img{
+                        width: 100%;
+                    }
+                }
+
+              }
+        }
+
+    }
+    
+}

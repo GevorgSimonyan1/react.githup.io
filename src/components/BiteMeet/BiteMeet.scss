@@ -1,0 +1,174 @@
+.bite-meet{
+    width: 100%;
+   
+        h2{
+            text-align: center;
+            font-weight: 450;
+            width: 60%;
+            margin: 35px auto 0 ;
+        }
+        .dannParagrafe{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            width: 30%;
+            display: flex;
+            grid-gap: 10px;
+            .center{
+              border-left: 2px solid rgba(0, 0, 0, 0.5);
+              border-right: 2px solid rgba(0, 0, 0, 0.5);
+              padding: 0 15px;
+            }
+
+        }
+        .meet-blocks{
+            width: 100%;
+            margin: 100px 0;
+
+
+            .meet-res{
+                display: flex;
+                grid-gap: 25px;
+             
+        
+           
+            .meet-btn{
+                width: 150px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                p{
+                    font-size: 25px;
+                    color: rgb(30, 30, 71);
+                    line-height: 30px;
+                    font-weight: 600;
+                   
+
+                }
+                button{
+                    width: 120px;
+                    height: 35px;
+                    margin: 25px auto;
+                    border: 2px solid blue;
+                    border-radius: 25px;
+                    transition: 1.5s;
+                    font-size: 18px;
+                    cursor: pointer;
+                    box-shadow: 0 2px 10px 2px blue;
+                  }
+                  button:hover{
+                      border: 2px solid white;
+                      background-color: blue;
+                      color: white;
+                      box-shadow:0 2px 10px 2px white;
+                  }
+            }
+            .meet-left{
+                width: 325px;
+                height: 400px;
+                background-image: url('./Bite-meet/Rectangle\ \(10\).png');
+                background-position: center;
+                position: relative;
+               
+                   .meet-fon{
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     width: 100%;
+                     height: 100%;
+                     
+                 
+                }
+                .meet-aps{
+                    position: absolute;
+                    bottom: 25px;
+                    left: 100px;
+                }
+            }  
+            .meet-center{
+
+                width: 325px;
+                height: 400px;
+          
+                background-image: url('./Bite-meet/Rectangle\ \(11\).png');
+                background-position: center;
+                position: relative;
+                .meet-aps{
+                    position: absolute;
+                    bottom: 35px;
+                    left: 100px;
+                }
+               
+                 
+            }  
+            .meet-right{
+                width: 325px;
+                height: 400px;
+                background-image: url('./Bite-meet/Rectangle\ \(12\).png');
+                background-position: center;
+                position: relative;
+                   .meet-fon{
+                     position: absolute;
+                     left: 0;
+                     top: 0;
+                     width: 100%;
+                     height: 100%;
+                 
+                }
+                .meet-aps{
+                    position: absolute;
+                  bottom: 25px;
+                    left: 100px;
+                }
+            } 
+        }
+
+        }      
+}      
+
+
+@media screen and (max-width:1200px){
+    .bite-meet{
+        width: 100%;
+
+         .meet-blocks{
+            .meet-res{
+                display: flex;
+                flex-direction: column;
+                .meet-left{
+                    height: 432px;
+                }
+                .meet-btn{
+                    width: 350px;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: row;
+                    margin: 0 auto;
+                    p{
+                        font-size: 20px;
+                        margin: 0 10px;
+                    }
+                    button{
+                        width: 170px;
+                        height: 35px;
+                      
+                      }
+
+                }
+                .meet-right,.meet-left,.meet-center{
+                    margin: 0 auto;
+                }
+
+                
+
+            }
+
+        }
+    }
+    
+}
